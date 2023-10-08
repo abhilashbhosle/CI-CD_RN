@@ -1,9 +1,9 @@
-name: Push into main
+name: Pull Request into Master, Develop and Preprod
 
 on:
-  push:
+  pull_request:
     branches:
-      - "main"
+      - "master"
       - "develop"
       - "preprod"
 
